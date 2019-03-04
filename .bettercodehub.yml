@@ -1,18 +1,22 @@
 exclude:
-- /bin/.*
-- /lib/.*
-- /org.rssowl.core/META-INF/.*
-- /org.rssowl.core/schema/.*
-- /org.rssowl.core.tests/META-INF/.*
-- /org.rssowl.core.tests/data/.*
-- /org.rssowl.feature/.*
-- /org.rssowl.feature.dependencies/.*
-- /org.rssowl.feature.eclipse/.*
-- /org.rssowl.feature.tests/.*
-- /org.rssowl.lib.db4o/.*
-- /org.rssowl.lib.httpclient/.*
-- /org.rssowl.lib.jdom/.*
-- /org.rssowl.lib.lucene/.*
-- /org.rssowl.ui/META-INF/.*
-- /org.rssowl.ui/icons/.*
-- /org.rssowl.ui/schema/.*
+  - /bin/.*
+  - /lib/.*
+  - /org.rssowl.core/META-INF/.*
+  - /org.rssowl.core/schema/.*
+  - /org.rssowl.core.tests/META-INF/.*
+  - /org.rssowl.core.tests/data/.*
+  - /org.rssowl.feature/.*
+  - /org.rssowl.feature.dependencies/.*
+  - /org.rssowl.feature.eclipse/.*
+  - /org.rssowl.feature.tests/.*
+  - /org.rssowl.lib.db4o/.*
+  - /org.rssowl.lib.httpclient/.*
+  - /org.rssowl.lib.jdom/.*
+  - /org.rssowl.lib.lucene/.*
+  - /org.rssowl.ui/META-INF/.*
+  - /org.rssowl.ui/icons/.*
+  - /org.rssowl.ui/schema/.*
+include:
+  - /org.rssowl.core/src/.*
+  - /org.rssowl.core.tests/src/.*
+  - /org.rssowl.ui/src/.*
